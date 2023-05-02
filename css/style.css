@@ -21,6 +21,14 @@ a {
   text-decoration: none;
 }
 
+.highlighted {
+  background-color: rgba(255, 255, 26, 0.7);
+}
+
+tr.bg-transparent td {
+  background: transparent;
+}
+
 /*-----------
 Header
 ------------*/
@@ -45,29 +53,33 @@ header img#logo {
 Main article
 --------*/
 article {
-  padding-left: 2rem;
+  padding-inline: 2rem;
 }
 
-article h1 {
+/*---header article----*/
+
+article .header-title h1 {
   font-size: 3.5rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   line-height: 3.5rem;
 }
 
-article p.autor {
+article .header-title p.autor {
   color: #8a8787;
   font-weight: 600;
   text-transform: capitalize;
 }
-article p.autor span a {
+article .header-title p.autor span a {
   color: rgb(51, 153, 255);
 }
 
-article p.date {
+article .header-title p.date {
   color: #8a8787;
   margin-top: 0.3rem;
 }
+
+/*-----img autor-----*/
 
 article .img-autor img {
   max-height: 30rem;
@@ -77,4 +89,44 @@ article .img-autor img {
 
 .photographer p.autor-photo {
   font-size: 1.3rem;
+}
+
+/*-----------
+Article Body
+-----------*/
+#article-body p {
+  margin-block: 2rem;
+}
+
+#article-body ul {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*-----table---*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead tr {
+  color: #fff;
+  text-align: left;
+  background-color: rgb(51, 153, 255);
+}
+
+tbody tr:not(tr:nth-child(2)) {
+  background-color: rgba(19, 240, 240, 0.5);
+}
+
+table thead tr th,
+table tbody tr td {
+  display: inline-block;
+  min-width: 25%;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child {
+  max-width: 50%;
 }
