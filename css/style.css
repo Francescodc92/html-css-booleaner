@@ -130,3 +130,45 @@ table thead tr th:last-child,
 table tbody tr td:last-child {
   max-width: 50%;
 }
+
+/*------------
+Section Other articles
+-------------*/
+section.other-articles {
+  margin-block: 2rem;
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.other-articles h2 {
+  color: #8a8787;
+}
+
+.links {
+  width: 30rem;
+  height: 20rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.links.first {
+  background: url("../img/monitor.jpg") no-repeat center/cover;
+  /*
+  backgroun-img:url("..//img/monitor.jpg") ;
+  background-repet:no-repeat;
+  background-position:center;
+  background-size:cover;
+  */
+}
+.links.second {
+  background: url("../img/graph.jpg") no-repeat center/cover;
+  /*
+  backgroun-img:url("..//img/monitor.jpg") ;
+  background-repet:no-repeat;
+  background-position:center;
+  background-size:cover;
+  */
+}
