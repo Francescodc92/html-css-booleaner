@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*-----------
+Header
+------------*/
+header {
+  height: 17rem;
+  background-color: rgb(51, 153, 255);
+  background-image: url("../img/pattern.png");
+  display: flex;
+  align-items: end;
+}
+
+header .logo-wrapper {
+  width: 27rem;
+  padding: 0 2rem 1rem;
+}
+
+header img#logo {
+  width: 100%;
+}
