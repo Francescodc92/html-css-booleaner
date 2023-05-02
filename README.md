@@ -1,4 +1,4 @@
-# Studio html
+# Studio html/css
 
 ![preview](./.github/preview.png)
 
