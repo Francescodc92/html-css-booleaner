@@ -15,6 +15,13 @@ body {
 }
 
 /*-----------
+Generals
+------------*/
+a {
+  text-decoration: none;
+}
+
+/*-----------
 Header
 ------------*/
 header {
@@ -32,4 +39,42 @@ header .logo-wrapper {
 
 header img#logo {
   width: 100%;
+}
+
+/*--------
+Main article
+--------*/
+article {
+  padding-left: 2rem;
+}
+
+article h1 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 3.5rem;
+}
+
+article p.autor {
+  color: #8a8787;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+article p.autor span a {
+  color: rgb(51, 153, 255);
+}
+
+article p.date {
+  color: #8a8787;
+  margin-top: 0.3rem;
+}
+
+article .img-autor img {
+  max-height: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.photographer p.autor-photo {
+  font-size: 1.3rem;
 }
